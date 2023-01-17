@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses Project</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <!-- <link rel="stylesheet" href="css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" /> -->
+
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Start header -->
+  <div class="header">
+    <div class="container">
+      <div class="row">
+
+        <div class="col">
+          phone: 00967 775144511 - Websit: www.curses.edu
+        </div>
+
+
+        <div class="col">
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Login</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- End header -->
+
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg y " style="background-color: white;"> <!-- bg-body-tertiar -->
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/MASARAT.png" alt="logo" style="width: 80px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact US</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Start Slider -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="overlay">
+
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images/Curses/programmer.jpg" class="courses_img" alt="..." >
+        <div class="carousel-caption d-none d-md-block">
+          <h5>programing</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/Curses/english.jpg" class="courses_img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>English Curses</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/Curses/Ai.jpg" class="courses_img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Artificial Intelligence</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- End slider -->
+
+  <!-- Start Features -->
+  <div class="features text-center">
+    <h2>Our Categories</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <i class="fa fa-graduation-cap rounded-circle" aria-hidden="true"></i>
+          <h3>Lorem ipsum dolor sit.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque ducimus excepturi. Lorem ipsum
+            dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <i class="fa fa-book rounded-circle" aria-hidden="true"></i>
+          <h3>Lorem ipsum dolor sit.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci qui at cumque. Lorem ipsum dolor sit amet
+            consectetur.</p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <i class="fa fa-code rounded-circle" aria-hidden="true"></i>
+          <h3>Lorem ipsum dolor sit.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et
+            enim culpa.</p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <i class="fa fa-desktop rounded-circle" aria-hidden="true"></i>
+          <h3>Lorem ipsum dolor sit.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perferendis deleniti praesentium optio.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Features -->
+
+  <!-- Start Our Team -->
+  <div class="our-team mt-5 text-center">
+    <h2>Our Catogre</h2>
+    <div class="container">
+      <div class="row">
+
+        
+        <div class="col-lg-4 col-sm-6">
+
+          <div class="card" style="width: 18rem;"> <!--style="width: 18rem; -->
+            <img src="images/Curses/front.png" class="card-img-top" style="height: 135px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Front End</h5>
+              <p class="card-text">Some quick example text to build on the card title and make upup the bulk of the card's
+                content.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Join</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background-color: aliceblue;color: #000;"> Read about</a>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6">
+
+          <div class="card" style="width: 18rem;"> <!--style="width: 18rem; -->
+            <img src="images/Curses/UX&UI-Design.jpg" class="card-img-top" style="height: 135px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ui/Ux</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Join</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background-color: aliceblue;color: #000;"> Read about</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+
+          <div class="card" style="width: 18rem;"> <!--style="width: 18rem; -->
+            <img src="images//Curses/backend.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Back End</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Join</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background-color: aliceblue;color: #000;"> Read about</a>
+              
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- End Our Team -->
+
+  <!-- Start Statistics -->
+
+  <div class="statistics">
+
+    <div class="dverlay">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-5">
+            <h3>Visitors</h3>
+            <p>100000</p>
+          </div>
+
+          <div class="col-sm-5">
+            <h3>Students</h3>
+            <p>150000</p>
+          </div>
+
+          <div class="col-sm-1">
+            <h3>Courses</h3>
+            <p>3380</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- End Statistics -->
+
+  <!-- Start Our Customars  -->
+  <div class="our-customers">
+    <h2> Our Students</h2>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg col-md-3 col-sm-6">
+          <img src="images/Amal Ali.jpg" alt="mercedes" style="width: 100%;height: 200px;">
+          <h4>Amal Ali</h4>
+        </div>
+
+        <div class="col-lg col-md-3 col-sm-6">
+          <img src="images/Yasin Ahmed.jpg" alt="mercedes" style="width: 100%;height: 200px;">
+          <h4>Yasin Ahmed</h4>
+        </div>
+
+        <div class="col-lg col-md-3 col-sm-6">
+          <img src="images/sarah Ebraheem.jpg" alt="mercedes" style="width: 100%;height: 200px;">
+          <h4>sarah Ebraheem</h4>
+        </div>
+
+        <div class="col-lg col-md-3 col-sm-6">
+          <img src="images/reem mosa.webp" alt="mercedes" style="width: 100%;height: 200px;">
+          <h4>Reem Mosa</h4>
+        </div>
+
+        <div class="col-lg col-md-3 col-sm-6">
+          <img src="images/Hasan Saeed.jpg" alt="mercedes" style="width: 100%;height: 200px;">
+          <h4>Hasan Saeed</h4>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Our Customars  -->
+
+  <!-- Start Recnt News  -->
+  <div class="recent-news">
+    <h2> Our Courses</h2>
+    <div class="container">
+      <div class="row">
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/C-NET-Financial-API-Stock-Wrapper.png" class="card-img-top" style="width: 70%;margin: 20px 30px 0px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">C#</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  content.</p>
+                <button class="btn btn-primary"> Join</button>
+                <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/Laravel.svg.png" class="card-img-top" style="width: 70%;margin: 20px 30px 10px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Laravel</h5>
+                <p class="card-text">This is a short card with supporting text below as a natural lead-in to Joitional.</p>
+                <button class="btn btn-primary"> Join</button>
+                <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/asp.net-border-526x335.png" class="card-img-top" style="width: 110%;margin: 10px 0px 10px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Asp.net</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  content.</p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/f.png" class="card-img-top" style="width: 70%;margin: 20px 30px 0px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Flutter</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional</p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/d.png" class="card-img-top" style="width: 70%;margin: 30px 30px 10px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dart</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  </p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/Pngtree—modern artificial intelligence medical scene.png" class="card-img-top" style="width: 100%;margin: 0px 0px 0px;"  alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AI</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  content. This content is a little bit longer.</p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/123.png" class="card-img-top" style="width: 100%;margin: 30px 0px 20px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AI</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  content. This content is a little bit longer.</p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/Pngtree—modern artificial intelligence medical scene.png" class="card-img-top" style="width: 100%;margin: 0px 0px 0px;"  alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AI</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  content. This content is a little bit longer.</p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/123.png" class="card-img-top" style="width: 100%;margin: 30px 0px 20px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AI</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  content. This content is a little bit longer.</p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Curses/Pngtree—modern artificial intelligence medical scene.png" class="card-img-top" style="width: 100%;margin: 0px 0px 0px;"  alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AI</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to Joinitional
+                  content. This content is a little bit longer.</p>
+                  <button class="btn btn-primary"> Join</button>
+                  <button class="btn btn-primary" style="background-color: aliceblue;color: #000;"> READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Recnt News -->
+
+  <!-- Start Footer  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-4">
+          <h2>My web site</h2>
+
+          <p style="padding-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatum
+            similique cupiditate nam!</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2> Important Links</h2>
+          <ul>
+            <li><a href="#"> - Home</a></li>
+            <li><a href="#"> - Contact US</a></li>
+            <li><a href="#"> - Our Team</a></li>
+            <li><a href="#"> - About US</a></li>
+            <li><a href="blog.html"> - Bolg</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Follow US</h2>
+          <ul>
+
+            <!-- <li><a href="#"><i class="fa fa-facebook-f" aria-hidden="true" style="background-color: aliceblue;"></i></a></li> -->
+            <li><a href="#"><i class="fa fa-graduation-cap rounded-circle fa-2x" ></i></a></li>
+            <li><a href="#"><i class="fa fa-book rounded-circle fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-code rounded-circle fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-desktop rounded-circle fa-2x" aria-hidden="true"></i></a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer1">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="#">
+              <p>all copy rights keeps for os developer company</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- End Footer  -->
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email Joinress</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
